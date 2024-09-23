@@ -1,0 +1,13 @@
+# Blender 4.1.1 MTL File: 'track.blend'
+# www.blender.org
+
+newmtl Remap1_NoAO_DarkEdge_Wood
+Ns 10.00000
+Kd 0.000000 0.300000 0.000000
+Ks 0.800000 0.800000 0.800000
+
+newmtl Remap2_Edge
+Ns 5.00000
+Kd 1.00000 1.00000 1.00000
+Ks 0.000000 0.000000 0.000000
+map_Kd track/textures/metal_texture2.png

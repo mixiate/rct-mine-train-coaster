@@ -1,0 +1,29 @@
+{
+"flags":["special_end_offsets"],
+"sections":["large_slope_transitions"],
+"sections_original":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","half_loops","large_half_loops","corkscrews","brakes","turn_bank_transitions","small_slope_transitions","large_corkscrews","medium_half_loops","zero_g_rolls"],
+"lift_sections":["flat","gentle_slopes","steep_slopes","diagonals","small_slope_transitions"],
+"z_offset":0,
+"length":1.0,
+
+"models":
+	{
+	"track":"track/track.obj",
+	"mask":"track/mask.obj"
+	},
+
+"lights":[
+	{"type":"diffuse","shadow":true,"direction":[1,0.375,-0.8],"strength":1.2},
+	{"type":"specular","shadow":true,"direction":[1,0.375,-0.8],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[1,1,1],"strength":0.15},
+	{"type":"diffuse","shadow":true,"direction":[1,1,-1],"strength":0.15},
+	{"type":"diffuse","shadow":false,"direction":[-1,1,1],"strength":0.15},
+	{"type":"diffuse","shadow":true,"direction":[-1,1,-1],"strength":0.15},
+	{"type":"diffuse","shadow":false,"direction":[0,-1,0],"strength":0.35}
+	],
+
+"base_directory":"C:/files/rct-mine-train-coaster/track/",
+"sprite_directory":"track/minetrain/",
+"spritefile_in":"sprites_old.json",
+"spritefile_out":"sprites.json"
+}
